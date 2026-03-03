@@ -1,1 +1,1 @@
-https://github.com/vodvyusha/posmotri-v-okno-fd#
+https://github.com/vodvyusha/posmotri-v-okno-fd
