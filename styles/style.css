@@ -109,7 +109,7 @@ ol {
   cursor: pointer;
 }
 
-.search-form__label:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 
@@ -118,16 +118,16 @@ ol {
 }
 
 .search-form__label:has(:focus-visible) {
-  outline: 1px solid white;
+  outline: 1px solid currentColor;
 }
 
 .search-form__textfield {
   min-width: 225px;
   border: none;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
   color: #fff;
-  font-family: "Fira Sans Condensed";
+  font-family: inherit;
   font-weight: 400;
   font-size: 18px;
   background-color: transparent;
@@ -143,7 +143,7 @@ ol {
 }
 
 .search-form__label:has(.search-form__textfield:focus-visible) {
-  outline: 1px solid #fff;
+  outline: 1px solid currentColor;
 }
 
 .search-form__checkbox-list {
@@ -154,7 +154,7 @@ ol {
 .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   padding: 1px;
 }
 
@@ -172,9 +172,9 @@ ol {
 }
 
 .button {
-  border: 1px solid white;
+  border: 1px solid currentColor;
   color: #fff;
-  font-family: "Fira Sans Condensed";
+  font-family: inherit;
   font-weight: 700;
   font-size: 18px;
   background-color: transparent;
@@ -195,7 +195,7 @@ ol {
 }
 
 .button:focus-visible {
-  outline: 1px solid white;
+  outline: 1px solid currentColor;
   outline-offset: 1px;
 }
 
@@ -217,7 +217,7 @@ ol {
 
 .title {
   margin-bottom: 26px;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
@@ -273,7 +273,7 @@ ol {
 }
 
 .content__card-link:focus-visible {
-  outline: 1px solid white;
+  outline: 1px solid currentColor;
 }
 
 .content__video-card {
@@ -290,7 +290,7 @@ ol {
 .content__video-card-title {
   margin-bottom: 4px;
   overflow: hidden;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 1;
